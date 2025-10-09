@@ -3,9 +3,11 @@ on:
   push:
     branches:
       - main
+      - ci-build
   pull_request:
     branches:
       - main
+      - ci-build
 
 jobs:
   build:
